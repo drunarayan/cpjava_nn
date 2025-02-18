@@ -1,0 +1,635 @@
+# LATEX Examples
+
+## Equations
+
+Display equation: $$equation$$
+
+Inline equation: $equation$
+
+$$\mathbb{N} = \{ a \in \mathbb{Z} : a > 0 \}$$
+$$\forall \; x \in X \quad \exists \; y \leq \epsilon$$
+$$\color{orange}{X \sim Normal \; (\mu,\sigma^2)}$$
+$$P \left( A=2 \, \middle| \, \dfrac{A^2}{B}>4 \right)$$
+$$f(x) = x^2 - x^\frac{1}{\pi}$$
+$$f(X,n) = X_n + X_{n-1}$$
+$$f(x) = \sqrt[3]{2x} + \sqrt{x-2}$$
+$$\mathrm{e} = \sum_{n=0}^{\infty} \dfrac{1}{n!}$$
+$$\prod_{i=1}^{n} x_i - 1$$
+$$\lim_{x \to 0^+} \dfrac{1}{x} = \infty$$
+$$\int_a^b y \: \mathrm{d}x$$
+$$\log_a b = 1$$
+$$\max(S) = \max_{i:S_i \in S} S_i$$
+$$\dfrac{n!}{k!(n-k)!} = \binom{n}{k}$$
+$$\text{$\dfrac{b}{a+b}=3, \:$ therefore we can set $\: a=6$}$$
+
+## Functions
+$$
+f(x)=
+\begin{cases}
+1/d_{ij} & \quad \text{when $d_{ij} \leq 160$}\\ 
+0 & \quad \text{otherwise}
+\end{cases}
+$$
+
+## Matrices
+
+$$
+\begin{matrix}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{matrix}
+$$
+
+$$
+M = 
+\begin{bmatrix}
+\frac{5}{6} & \frac{1}{6} & 0 \\[0.3em]
+\frac{5}{6} & 0 & \frac{1}{6} \\[0.3em]
+0 & \frac{5}{6} & \frac{1}{6}
+\end{bmatrix}
+$$
+
+$$ 
+M =
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
+
+$$ 
+M =
+\begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix}
+\begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix}
+$$
+
+$$
+A_{m,n} = 
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+\end{pmatrix}
+$$
+
+$$\small \text{Font size is small, eg. $\sum{x_i = 10}$}$$
+
+## Font Sizes
+
+$\Huge Hello!$
+$\huge Hello!$
+$\LARGE Hello!$
+$\Large Hello!$
+$\large Hello!$
+$\normalsize Hello!$
+$\small Hello!$
+$\scriptsize Hello!$
+$\tiny Hello!$
+
+
+
+## Operators
+- $x + y$
+- $x - y$
+- $x \times y$ 
+- $x \div y$
+- $\dfrac{x}{y}$
+- $\sqrt{x}$
+
+## Symbols
+- $\pi \approx 3.14159$
+- $\pm \, 0.2$
+- $\dfrac{0}{1} \neq \infty$
+- $0 < x < 1$
+- $0 \leq x \leq 1$
+- $x \geq 10$
+- $\forall \, x \in (1,2)$
+- $\exists \, x \notin [0,1]$
+- $A \subset B$
+- $A \subseteq B$
+- $A \cup B$
+- $A \cap B$
+- $X \implies Y$
+- $X \impliedby Y$
+- $a \to b$
+- $a \longrightarrow b$
+- $a \Rightarrow b$
+- $a \Longrightarrow b$
+- $a \propto b$
+
+- $\bar a$
+- $\tilde a$
+- $\breve a$
+- $\hat a$
+- $a^ \prime$
+- $a^ \dagger$
+- $a^ \ast$
+- $a^ \star$
+- $\mathcal A$
+- $\mathrm a$
+- $\cdots$
+- $\vdots$
+- $\#$
+- $\$$
+- $\%$
+- $\&$
+- $\{ \}$
+- $\_$
+
+## Spaces
+
+- Horizontal space: $start \quad end$
+- Large horizontal space: $start  \qquad end$
+- Small space: $start  \, end$
+- Medium space: $start  \: end$
+- Large space: $start  \; end$
+- Negative space: $start  \! end$
+
+## Greek Alphabets
+
+$$
+ \alpha	
+$$
+ A	
+$$
+ \beta	
+$$
+ B	
+$$
+ \gamma	
+$$
+ \Gamma	
+$$
+ \delta	
+$$
+ \Delta	
+$$
+ \epsilon	
+$$
+ E	
+$$
+ \varepsilon
+$$
+ \zeta	
+$$
+ Z	
+$$
+ \eta	
+$$
+ H	
+$$
+ \theta	
+$$
+ \Theta	
+$$
+ \vartheta
+$$
+ \zeta	
+$$
+ I	
+$$
+ \kappa	
+$$
+ K	
+$$
+ \varkappa
+$$
+ \lambda	
+$$
+ \Lambda	
+$$
+ \mu	
+$$
+ M	
+$$
+ \nu	
+$$
+ N	
+$$
+ \xi	
+$$
+ \Xi	
+$$
+ \omicron	
+$$
+ O	
+$$
+ \pi	
+$$
+ \Pi	
+$$
+ \varpi
+$$
+ \rho	
+$$
+ P	
+$$
+ \varrho
+$$
+ \sigma	
+$$
+ \Sigma	
+$$
+ \varsigma
+$$
+ \tau	
+$$
+ T	
+$$
+ \upsilon	
+$$
+ \Upsilon	
+$$
+ \phi	
+$$
+ \Phi	
+$$
+ \varphi
+$$
+ \chi	
+$$
+ X	
+$$
+ \psi	
+$$
+ \Psi	
+$$
+ \omega	
+$$
+ \Omega	
+ $$
+
+
+# Perceptron Machine Learning(ML) Project
+## Part 1 - Introduction to the Perceptron
+
+
+The human brain can be described as a biological neural network—an interconnected web
+of neurons transmitting elaborate patterns of electrical signals. Dendrites receive input
+signals and, based on those inputs, fire an output signal via an axon. Or something like that.
+![sn](singleneuron.png)
+
+How the human brain actually works is an elaborate and complex mystery, we will attempt to write very simplistic code that will allow us to simulate a single neuron called a Perceptron in Java.  We wil be using [Tariq Rashid's book Make your Own Neural Network](myonn.pdf) as a reference during this project. 
+
+### The Perceptron
+Invented in 1957 by Frank Rosenblatt at the Cornell Aeronautical Laboratory, a perceptron is
+the simplest neural network possible: a computational model of a single neuron. A
+perceptron consists of one or more inputs, a processor, and a single output.
+
+![perceptron](perceptron.png)
+
+A perceptron follows the “feed-forward” model, meaning inputs are sent into the neuron,
+are processed, and result in an output. In the diagram above, this means the network (one
+neuron) reads from left to right: inputs come in, output goes out.
+Let’s follow each of these steps in more detail.
+
+1. Receive Inputs
+
+    Consider a perceptron with two inputs—let’s call them x1 and x2.
+    ```
+    Input 0: x1 = 12
+    Input 1: x2 = 4
+    ```
+1. Assign Weight to Inputs
+    ```
+    Weight 0: 0.5
+    Weight 1: -1
+    Input 0 * Weight 0 ⇒ 12 * 0.5 = 6
+    Input 1 * Weight 1 ⇒ 4 * -1 = -4
+    ```
+1. Sum the Weighted Inputs
+    ```
+    Sum = 6 + -4 = 2
+    ```
+1. Generate the Output
+
+    The output of a perceptron is generated by passing that sum through an activation function. In
+    the case of a simple binary output, the activation function is what tells the perceptron whether
+    to “fire” or not. You can envision an LED connected to the output signal: if it fires, the light
+    goes on; if not, it stays off.
+    
+    Activation functions can get a little bit hairy. If you start reading one of those artificial
+    intelligence textbooks looking for more info about activation functions, you may soon find
+    yourself reaching for a calculus textbook. However, with our friend the simple perceptron,
+    we’re going to do something really easy. Let’s make the activation function the sign of the
+    sum. In other words, if the sum is a positive number, the output is 1; if it is negative, the output
+    is -1.
+    ```
+    Output = activate(sum) ⇒ activate(2) ⇒ +1
+    ```
+
+### Simple Classification Example in Java using the Perceptron Model
+
+Now that we understand the computational process of a perceptron, we can look at an
+example of one in action. We stated that neural networks are often used for pattern
+recognition applications, such as facial recognition. Even simple perceptrons can
+demonstrate the basics of classification, as in the following example.
+![scatter](scatter.png)
+
+Consider a line in two-dimensional space.
+Points in that space can be classified as
+living on either one side of the line or the
+other. While this is a somewhat silly example
+(since there is clearly no need for a neural
+network; we can determine on which side a
+point lies with some simple algebra), it
+shows how a perceptron can be trained to
+recognize points on one side versus
+another.
+
+Let’s say a perceptron has 2 inputs (the xand
+y-coordinates of a point). Using a sign activation function, the output will either be -1 or
+1—i.e., the input data is classified according to the sign of the output. In the above diagram,
+we can see how each point is either below the line (-1) or above (+1).
+
+The perceptron itself can be diagrammed as before:
+
+![perceptron](perceptron.png)
+
+We can see how there are two inputs (x and y), a weight for each input (weightx and weighty),
+as well as a processing neuron that generates the output.
+There is a pretty significant problem here, however. Let’s consider the point (0,0). What if we
+send this point into the perceptron as its input: x = 0 and y = 0? What will the sum of its
+weighted inputs be? No matter what the weights are, the sum will always be 0! But this can’t
+be right—after all, the point (0,0) could certainly be above or below various lines in our twodimensional
+world.
+To avoid this dilemma, our perceptron will require a third input, typically referred to as a bias
+input. A bias input always has the value of 1 and is also weighted. Here is our perceptron with
+the addition of the bias:
+
+![preceptron_with_bias](preceptron_with_bias.jpg)
+
+The output is the sum of the above three values, 0 plus 0 plus the bias’s weight. Therefore,
+the bias, on its own, answers the question as to where (0,0) is in relation to the line. If the
+bias’s weight is positive, (0,0) is above the line; negative, it is below. It “biases” the
+perceptron’s understanding of the line’s position relative to (0,0).
+
+![Alt text](https://machinelearning.tobiashill.se/wp-content/uploads/2022/09/Single-neuron-3.png)
+
+In the figure above we have a more complete picture. It shows the sum of $\sum (weights * inputs)$ plus the bias (weight of the bias can be thought of as being 1) producing a weighted sum $z$. This $z$ not shown in above figure, is then passed through to $\sigma()$ the activation function which will allow the signal to flow out of the neuron if it is greater than a given threshold. Note the reference to the ```sign activation function``` from before.   The activation function ```sigmoid``` has an equation and graph that looks like this: 
+
+```math
+\sigma \(z\) = \frac{1}{1+e^{-z}}
+```
+
+
+
+
+
+
+
+![Alt text](https://machinelearning.tobiashill.se/wp-content/uploads/2022/09/Screenshot-2019-01-07-at-13.30.22-1.png)
+where $z$ is the weighted sum.
+
+### Write code in processing for the Perceptron
+We’re now ready to assemble the code for a Perceptron class. The only data the
+perceptron needs to track are the input weights, and we could use an array of floats to store
+these.
+
+```
+class Perceptron {
+  float [] weights;
+```
+The constructor could receive an argument indicating the number of inputs (in this case
+three: x, y, and a bias) and size the array accordingly.
+
+```
+  Perceptron(int n) {
+    weights = new float [n];
+    for (int i = 0; i < weights.length; i++ ) {
+      weights[i] = (float) (Math.random()) -0.5;
+    }
+  }
+
+....
+
+```
+A perceptron needs to be able to receive inputs and generate an output. We can package
+these requirements into a function called feedforward(). In this example, we’ll have the perceptron receive its inputs as an array (which should be the same length as the array of
+weights) and return the output as an integer. But, before you return the output, you need to send it through the sign activation function described previosly whose result is the sign of the sum, -1 or +1. Here
+the perceptron is making a guess. Is it on
+one side of the line or the other?
+```
+....
+    int feedforward(float[] inputs) {
+        float sum = 0;
+        for (int i = 0; i < weights.length; i++) {
+            sum += inputs[i]*weights[i];
+        }
+        return activate(sum);
+    }
+}
+```
+
+You should now be able to create a Perceptron object and ask it to make a guess for any
+given point. 
+![feed](feedforward.jpg)
+
+```
+Perceptron p = new Perceptron(3); #Create the Perceptron.
+float[] point = {50,-12,1}; #The input is 3 values: x,y and bias.
+int result = p.feedforward(point); The answer!
+```
+## Your Tasks this week!
+1. Create a new Processing sketch - call it ``neuron_classifier``
+1. Add code above to the ``Perceptron`` tab and the main ``neuron_classifier`` tab
+1. You will need to develop the sign activation function activate() described previously and add it to the Perceptron class.
+
+1. Write code to create a class Point in the ``Point`` tab which has 2 float members x, y. Write 2 overloaded constructors 
+    - an no-arg one which will initiallize members x, y to random values between -1 and 1.
+    - one with args for initializing x, y to specified values between -1 and 1.
+
+1. I have written the main tab including a function ``line_func`` which returns the ``y`` value of a random equation of a line $$y=slope * x + off $$  The main tab also includes coordinate transformations for handling the origin (0,0) being at the center of the canvas and x values -0.5 to 0.5 and y values from -0.5 to 0.5.  I will walkthrough this with you if you do not understand it.
+    ```
+    int nwt = 3;
+    int npts = 100;
+    Perceptron pcp = new Perceptron(nwt);
+    Point [] pts = new Point [npts];
+    float [] outputs = new float [npts];
+    float slope = (float) (Math.random()) -0.5;
+    float off = (float) (Math.random()) -0.5;
+
+    void setup() {
+        size(500, 500);
+
+        for (int i = 0; i < pts.length; i++) {
+            pts[i] = new Point();
+            float [] inp = { pts[i].x, pts[i].y, 1 };
+            outputs[i]=pcp.feedforward(inp);
+        }
+
+        //print_all();
+    }
+
+    float line_func(float x) {
+        //y = slope * x + off
+        return slope * x + off;
+        }
+
+        float px(float x) {
+        return map(x, -0.5, 0.5, 0, width);
+        }
+
+        float py(float y) {
+        return map(y, -0.5, 0.5, height, 0);
+    }
+
+    void print_all() {
+
+        System.out.println("weights:");
+        for (int i = 0; i < pcp.weights.length; i++) {
+            System.out.printf("%f ", pcp.weights[i]);
+        }
+        System.out.println();
+
+        for (int i = 0; i < pts.length; i++) {
+            System.out.println("points:");
+            System.out.printf("%f %f \n", pts[i].x, pts[i].y);
+            System.out.println("outputs:");
+            System.out.printf("%f\n", outputs[i]);
+        }
+    }
+
+    void draw() {
+        background(255);
+        for (int i = 0; i < pts.length; i++) {
+            Point pt = pts[i];
+            stroke(0);
+            strokeWeight(1);
+            noFill();
+            ellipse(px(pt.x), py(pt.y), 16, 16);
+            if (outputs[i] > 0.0) {
+            noStroke();
+            fill(0, 255, 0);
+            ellipse(px(pt.x), py(pt.y), 8, 8);
+            } else {
+            noStroke();
+            fill(0, 0, 0);
+            ellipse(px(pt.x), py(pt.y), 8, 8);
+            }
+        }
+        stroke(255, 0, 0);
+        strokeWeight(3);
+        line(px(-1), py(line_func(-1)), px(1), py(line_func(1)));
+    }
+
+    ```
+
+1. Test your code with an array of Point objects.  The output of 2 runs should look similar to this.  
+    ![r1](r1.png)
+    ![r1](r2.png)
+
+### WE HAVE NOW CONCLUDED PART 1 OF YOUR FINAL PROJECT!!
+
+##  Part 2 - Supervised ML, Matrices & the Muli-Layered Perceptron
+
+### Review
+
+We looked at a very simplistic Perceptron simulating a single neuron iin the previous Part 1 of this project.  
+
+In this section we will look at a multi-layered perceptron model which are much more adept at solving more difficult problems like machine recognition of written numerals which will be end goal of our project.
+
+![neurons](neurons.png)
+
+![Alt text](https://machinelearning.tobiashill.se/wp-content/uploads/2022/09/network_example_4.png)
+
+![Alt text](https://machinelearning.tobiashill.se/wp-content/uploads/2022/09/MnistExamples.png)
+
+However, to do this, we will be using linear algebra and matrix maths to do our computations.  Using for-loops in Java will be much more difficult and error prone. We will use a Matrix library in Java to help us along the way.  Before we do that we should look at some notations we need to follow strictly as to not get confused.
+
+Before I explain how the network as a whole can be used to solve problems, let's review and look at notational representation of weighted sums and activation functions.  We will then see how Matrices can help.
+
+![Alt text](https://machinelearning.tobiashill.se/wp-content/uploads/2022/09/Single-neuron-3.png)
+
+The input to every neuron is the weighted sum of the output from every neuron in the previous layer. In the example this would be:
+
+![ws](ws.png)
+
+When considering the entire layer of neurons, we instead write this in vector form $$z = Wx + b$$where $z, x, b$ are vectors and $W$ is a matrix.
+
+$x$ contains all outgoing signals from the preceding layer.
+$b$ contains all biases in the current layer.
+$W$ has all the weight for all connections between preceding layer and the current.
+
+The input signal is then transformed within the neuron by applying something called an activation function, denoted σ. The name, activation function, stems from the fact that this function commonly is designed to let the signal pass through the neuron if the in-signal z is big enough, but limit the output from the neuron if z is not. We can think of this as the neuron firing or being active if stimuli is strong enough.
+
+More importantly the activation function adds non-linearity to the network which is important when trying to fit the network efficiently (by fit the network I mean train the network to produce the output we want). Without it the network would just be a linear combination of its input.
+
+A common activation function is this logistic function, called the sigmoid-function:
+
+$$ \sigma (z) = \frac{1}{1+e^{-z}}$$ 
+![Alt text](https://machinelearning.tobiashill.se/wp-content/uploads/2022/09/Screenshot-2019-01-07-at-13.30.22-1.png)
+where $z$ is the weighted sum.
+
+As you can see from the graphs they both behave the way I described: They let the signal pass if big enough, and limits it if not. 
+
+Finally, after having applied the activation function to z, getting σ(z), we have the output from the neuron.
+
+Or stated in vector-form: after having applied the activation function to vector z, getting σ(z) (where the function is applied to every element in the vector z) we have the output from all the neurons in that layer.
+
+### A Three Layer Example with Matrix Multiplication
+
+We haven’t worked through feeding signals through a neural network using matrices to do the
+calculations. We also haven’t worked through an example with more than 2 layers, which is
+interesting because we need to see how we treat the outputs of the middle layer as inputs to the
+final third layer.
+The following diagram shows an example neural network with 3 layers, each with 3 nodes. To
+keep the diagram clear, not all the weights are marked.
+
+![threel](threelayer.jpg)
+
+We’ll introduce some of the commonly used terminology here too. The first layer is the input
+layer , as we know. The final layer is the output layer , as we also know. The middle layer is
+called the hidden layer . That sounds mysterious and dark, but sadly there isn’t a mysterious
+dark reason for it. The name just stuck because the outputs of the middle layer are not
+necessarily made apparent as outputs, so are “hidden”. Yes, that’s a bit lame, but there really
+isn’t a better reason for the name.
+Let’s work through that example network, illustrated in that diagram. We can see the three
+inputs are 0.9, 0.1 and 0.8. So the input matrix $I$ and weight $W_{input-hidden}$ are:
+
+![ins](ins.jpg)
+![ws](ws.jpg)
+
+$$ X = W_{ih} * I $$
+![not](notation.png)
+![mult](mult.jpg)
+
+$$ \sigma (z) = \frac{1}{1+e^{-z}}$$ 
+![osig](osig.png)
+![oosig](oosig.jpg)
+$$ \sigma (z) = \frac{1}{1+e^{-z}}$$ 
+![final](finaloutput.jpg)
+![full](fulloutput.jpg)
+
+### Our task in Part 2 is to implement this network with Matrices and see if we can get the outputs above!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
